@@ -1,0 +1,129 @@
+.navbar{
+    background-color: #017dbf;
+}
+.img-luffy{
+    height:60px ;
+    width:60px ;
+    border-radius: 50% ;
+}
+.carousel-item{
+    height: 100%;
+}
+.myicon{
+    background: linear-gradient(to left, blue, cyan);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 50px;
+}
+.cwidra{
+    background-color:#017dbf;
+    opacity: 0.6;
+    height: 120px;
+    width: 600px;
+    border-radius: 20px;
+    margin-left: 16%;
+    margin-bottom: 20px;
+
+}
+.cwidra:hover{
+    color: white;
+    background-color: rgb(140, 96, 180);
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.products{
+    /* text-decoration: underline; */
+    background: linear-gradient(to left, blue, blueviolet);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    border-bottom: #017dbf 3px solid;
+}
+.btn{
+    background-color: #017dbf;
+}
+.btn:hover{
+    background-color: crimson;
+    transition: all 0.5s ease;
+}
+.card{
+    overflow:hidden;
+}
+
+.img-cwirda{
+    height: 250px;
+    width: 250px;
+}
+.img-cwirda:hover{
+    transform: scale(1.05);
+    transition: all 0.5s ease;
+}
+
+.card-text{
+    font-weight: bold;
+    color: #017dbf;
+}
+.njma{
+    color: blue;
+}
+.njma:hover{
+    color: crimson;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.contact{
+    border-bottom: #017dbf 3px solid;
+}
+.dv{
+    background-image: url('../media/16.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+label{
+    font-weight: 700;
+    font-size: 35px;
+    background: linear-gradient(to left, blue, cyan);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.thumbnail:hover{
+    cursor: pointer;
+    transform:rotate(3deg);
+    transition:all 0.5s ease;
+}
+span{
+    color: #017dbf;
+}
+s{
+    color: red;
+}
+.l3onwan{
+border-bottom: 1px solid red;
+    background: linear-gradient(to left, blue, cyan);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+a{
+    font-size: 20px;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.href2{
+    color: blueviolet;
+}
+.href1{
+    color: blue;
+}
+.myfooter{
+    background-color: #017dbf;
+}
+.foter-item{
+    background: linear-gradient(to left, blue 80%, blueviolet);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}

@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="../bootstrap-jQuery/css/bootstrap.css">
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- =====navbar=====-->
+
+    <nav class="navbar navbar-expand-lg navbar-light  fixed-top mb-5 active">
+        <a href="#" class="navbar-brand" style="font-size: 30px;">
+
+            <img src="../project/media/luffy.png" alt="" class="img-luffy rounded-circle">
+
+        </a>
+
+        <a href="#ahmed" class="navbar-toggler" data-toggle="collapse">
+            <span class="navbar-toggler-icon"></span>
+        </a>
+        <div id="ahmed" class="collapse navbar-collapse">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Products</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                <a class="nav-link dropdown-toggle " id="skills" data-toggle="dropdown">Skills</a>
+                <div class="dropdown-menu" aria-labelledby="skills">
+                    <a href="#" class="dropdown-item">node.js</a>
+                    <a href="#" class="dropdown-item">react.js</a>
+                    <a href="#" class="dropdown-item">next.js</a>
+                </div>
+            </ul>
+
+        </div>
+
+    </nav>
+
+    <!-- =====carousel slide=====-->
+
+    <div id="slide" class="carousel slide w-100 mb-5 mt-5">
+        <ol class="carousel-indicators">
+            <li data-target="#slide" data-slide-to="0" class="li-slide active"></li>
+            <li data-target="#slide" data-slide-to="1" class="li-slide"></li></li>
+            <li data-target="#slide" data-slide-to="2" class="li-slide "></li></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item  active">
+                <img src="../project-Ecommerce/media/1.png" class="w-100" alt="..." style="height: 500px; width:550px;">
+                <div class="carousel-caption d-none d-md-block cwidra">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="../project-Ecommerce/media/2.png" class="w-100" alt="..." style="height: 500px; width:550px;">
+                <div class="carousel-caption d-none d-md-block cwidra">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="../project-Ecommerce/media/3.png" class="w-100" alt="..." style="height: 500px; width:550px;">
+                <div class="carousel-caption d-none d-md-block cwidra">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+        </div>
+        <a href="#slide" class="carousel-control-next" data-slide="next">
+            <i class="fa-solid fa-angles-right myicon"></i>
+        </a>
+
+        <a href="#slide" class="carousel-control-prev" data-slide="prev">
+            <i class="fa-solid fa-angles-left myicon"></i>
+        </a>
+
+    </div>
+    <!-- =====cards===== -->
+
+    <section class="container mb-5 text-center">
+
+        <div class="col-12 d-flex justify-content-center"  id="footp">
+            <p class="display-4 products p-1">Products</p>
+        </div>
+        <div class="button-group filter-button-group">
+            <button class="btn mb-4" data-filter="*">all</button>
+            <button class="btn mb-4" data-filter=".mostsales">Cheap</button>
+            <button class="btn mb-4" data-filter=".features">expensive </button>
+            <button class="btn mb-4" data-filter=".new">sold</button>
+            <button class="btn mb-4" data-filter=".discounts">New Models</button>
+        </div>
+
+
+        <div class="lcards d-flex justify-content-center xgrid">
+                        <!-- lwla -->
+                <div class="row justify-content-around ">  
+                <div class="card mostsales mb-3 m-3 " style="width:250px;">
+                                <img src="../project-Ecommerce/media/4.png" alt="" class="img-card-top  img-cwirda">
+                                <div class="card-body">
+                                    <i class="fa-solid fa-star  njma"></i>
+                                    <i class="fa-solid fa-star  njma"></i>
+                                    <i class="fa-solid fa-star  njma"></i>
+                                    <i class="fa-solid fa-star  njma"></i>
+                                    <i class="fa-solid fa-star  njma"></i>
+                                    <h4 class="card-title mt-3 mb-1">T-shirt kotn</h4>
+                                    <p class="card-text">30$</p>
+                                </div>
+                </div>
+                
+                <div class="card mostsales mb-3 m-3 " style="width:250px">
+                                <img src="../project-Ecommerce/media/5.png" alt="" class="img-card-top  img-cwirda">
+                                <div class="card-body">
+                                    <i class="fa-solid fa-star  njma"></i>
+                                    <i class="fa-solid fa-star  njma"></i>
+                                    <i class="fa-solid fa-star  njma"></i>
+                                    <i class="fa-solid fa-star  njma"></i>
+                                    <i class="fa-solid fa-star  njma"></i>
+                                    <i class="fa-solid fa-star  njma"></i>
+                                    <h4 class="card-title mt-3 mb-1">T-shirt kotn</h4>
+                                    <p class="card-text">70$</p>
+                                </div>
+                </div>
+                
+                <div class="card new mb-3 m-3" style="width:250px">
+                                <img src="../project-Ecommerce/media/6.png" alt="" class="img-card-top  img-cwirda">
+                                <div class="card-body">
+                                    <i class="fa-solid fa-star  njma"></i>
+                                    <i class="fa-solid fa-star  njma"></i>
+                                    <i class="fa-solid fa-star  njma"></i>
+                                    <i class="fa-solid fa-star  njma"></i>
+                                    <i class="fa-solid fa-star  njma"></i>
+                                    <i class="fa-solid fa-star  njma"></i>
+                                    <h4 class="card-title mt-3 mb-1">T-shirt kotn</h4>
+                                    <p class="card-text">70$</p>
+                                </div>
+                </div>
+                
+                <div class="card new mb-3 m-3" style="width:250px">
+                                <img src="../project-Ecommerce/media/7.png" alt="" class="img-card-top  img-cwirda">
+                                <div class="card-body">
+                                    <i class="fa-solid fa-star  njma"></i>
+                                    <i class="fa-solid fa-star  njma"></i>
+                                    <i class="fa-solid fa-star  njma"></i>
+                                    <i class="fa-solid fa-star  njma"></i>
+                                    <i class="fa-solid fa-star  njma"></i>
+                                    <i class="fa-solid fa-star  njma"></i>
+                                    <h4 class="card-title mt-3 mb-1">T-shirt kotn</h4>
+                                    <p class="card-text">0$</p>
+                                </div>
+                </div>
+                <br><br><br>
+                        <!-- tania -->
+                <div class="row justify-content-around ">
+                <div class="card  discounts mb-3 m-3" style="width:250px">
+                                <img src="../project-Ecommerce/media/8.png" alt="" class="img-card-top  img-cwirda">
+                                <div class="card-body">
+                                    <i class="fa-solid fa-star  njma"></i>
+                                    <i class="fa-solid fa-star  njma"></i>
+                                    <i class="fa-solid fa-star  njma"></i>
+                                    <i class="fa-solid fa-star  njma"></i>
+                                    <i class="fa-solid fa-star  njma"></i>
+                                    <i class="fa-solid fa-star  njma"></i>
+                                    <h4 class="card-title mt-3 mb-1">T-shirt kotn</h4>
+                                    <p class="card-text">85$</p>
+                                </div>
+                </div>
+                
+                <div class="card new mb-3 m-3" style="width:250px">
+                                <img src="../project-Ecommerce/media/9.png" alt="" class="img-card-top  img-cwirda">
+                                <div class="card-body">
+                                    <i class="fa-solid fa-star  njma"></i>
+                                    <i class="fa-solid fa-star  njma"></i>
+                                    <i class="fa-solid fa-star  njma"></i>
+                                    <i class="fa-solid fa-star  njma"></i>
+                                    <i class="fa-solid fa-star  njma"></i>
+                                    <i class="fa-solid fa-star  njma"></i>
+                                    <h4 class="card-title mt-3 mb-1">T-shirt kotn</h4>
+                                    <p class="card-text">70$</p>
+                                </div>
+                </div>
+                
+                <div class="card  discounts mb-3 m-3" style="width:250px">
+                                <img src="../project-Ecommerce/media/10.png" alt="" class="img-card-top  img-cwirda">
+                                <div class="card-body">
+                                    <i class="fa-solid fa-star  njma"></i>
+                                    <i class="fa-solid fa-star  njma"></i>
+                                    <i class="fa-solid fa-star  njma"></i>
+                                    <i class="fa-solid fa-star  njma"></i>
+                                    <i class="fa-solid fa-star  njma"></i>
+                                    <i class="fa-solid fa-star  njma"></i>
+                                    <h4 class="card-title mt-3 mb-1">T-shirt kotn</h4>
+                                    <p class="card-text">85$</p>
+                                </div>
+                </div>
+                
+                <div class="card  discounts mb-3 m-3" style="width:250px">
+                                <img src="../project-Ecommerce/media/11.png" alt="" class="img-card-top  img-cwirda">
+                                <div class="card-body">
+                                    <i class="fa-solid fa-star  njma"></i>
+                                    <i class="fa-solid fa-star  njma"></i>
+                                    <i class="fa-solid fa-star  njma"></i>
+                                    <i class="fa-solid fa-star  njma"></i>
+                                    <i class="fa-solid fa-star  njma"></i>
+                                    <i class="fa-solid fa-star  njma"></i>
+                                    <h4 class="card-title mt-3 mb-1">T-shirt kotn</h4>
+                                    <p class="card-text">30$</p>
+                                </div>
+                </div>
+                </div>
+                
+            <br><br><br>
+                            <!-- talta -->
+                <div class="row justify-content-around">
+                <div class="card  discounts mb-3 m-3" style="width:250px">
+                                <img src="../project-Ecommerce/media/12.png" alt="" class="img-card-top  img-cwirda">
+                                <div class="card-body">
+                                    <i class="fa-solid fa-star  njma"></i>
+                                    <i class="fa-solid fa-star  njma"></i>
+                                    <i class="fa-solid fa-star  njma"></i>
+                                    <i class="fa-solid fa-star  njma"></i>
+                                    <i class="fa-solid fa-star  njma"></i>
+                                    <i class="fa-solid fa-star  njma"></i>
+                                    <h4 class="card-title mt-3 mb-1">T-shirt kotn</h4>
+                                    <p class="card-text">85$</p>
+                                </div>
+                </div>
+                
+                <div class="card features mb-3 m-3" style="width:250px">
+                                <img src="../project-Ecommerce/media/13.png" alt="" class="img-card-top  img-cwirda">
+                                <div class="card-body">
+                                    <i class="fa-solid fa-star  njma"></i>
+                                    <i class="fa-solid fa-star  njma"></i>
+                                    <i class="fa-solid fa-star  njma"></i>
+                                    <i class="fa-solid fa-star  njma"></i>
+                                    <i class="fa-solid fa-star  njma"></i>
+                                    <i class="fa-solid fa-star  njma"></i>
+                                    <h4 class="card-title mt-3 mb-1">T-shirt kotn</h4>
+                                    <p class="card-text">70$</p>
+                                </div>
+                </div>
+                
+                <div class="card features mb-3 m-3" style="width:250px">
+                                <img src="../project-Ecommerce/media/14.png" alt="" class="img-card-top  img-cwirda">
+                                <div class="card-body">
+                                    <i class="fa-solid fa-star  njma"></i>
+                                    <i class="fa-solid fa-star  njma"></i>
+                                    <i class="fa-solid fa-star  njma"></i>
+                                    <i class="fa-solid fa-star  njma"></i>
+                                    <i class="fa-solid fa-star  njma"></i>
+                                    <i class="fa-solid fa-star  njma"></i>
+                                    <h4 class="card-title mt-3 mb-1">T-shirt kotn</h4>
+                                    <p class="card-text">85$</p>
+                                </div>
+                </div>
+                
+                <div class="card features mb-3 m-3" style="width:250px">
+                                <img src="../project-Ecommerce/media/15.png" alt="" class="img-card-top  img-cwirda">
+                                <div class="card-body">
+                                    <i class="fa-solid fa-star  njma"></i>
+                                    <i class="fa-solid fa-star  njma"></i>
+                                    <i class="fa-solid fa-star  njma"></i>
+                                    <i class="fa-solid fa-star  njma"></i>
+                                    <i class="fa-solid fa-star  njma"></i>
+                                    <i class="fa-solid fa-star  njma"></i>
+                                    <h4 class="card-title mt-3 mb-1">T-shirt kotn</h4>
+                                    <p class="card-text">30$</p>
+                                </div>
+                </div>
+                
+        </div>
+
+
+    </section>
+
+
+    <!-- =====Contact===== -->
+
+    <div class="col-12 d-flex justify-content-center" id="footc">
+        <p class="display-4 products p-1">Contact Us</p>
+    </div>
+
+    <div class="dv mb-4 p-4">
+
+        <section class="container w-50 text-center">
+            <form>
+                <div class="form-group">
+                    <label class="">First Name</label>
+                    <input type="text" class="form-control" style="height: 50px;" placeholder="Enter your name"
+                        required>
+                </div>
+
+                <div class="form-group">
+                    <label class="">Last Name</label>
+                    <input type="text" class="form-control" style="height: 50px;" placeholder="Enter your name"
+                        required>
+                </div>
+                <div class="form-group">
+                    <label class="">Email</label>
+                    <input type="email" class="form-control" style="height: 50px;" placeholder="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label class="">Talabia</label>
+                    <textarea class="form-control" style="height: 80px;" required></textarea>
+                </div>
+                <button class="btn btn-primary btn-rounded" type="submit" style="width: 150px;">Submit</button>
+            </form>
+        </section>
+    </div>
+
+
+    <div class="col-12 d-flex justify-content-center">
+        <p class="display-4 products p-1"> Most requested products</p>
+    </div>
+
+    <section>
+
+        <!-- =====row lwla===== -->
+
+
+        <div class="row">
+            <div class="col-sm-4 p-1 mb-2 d-flex justify-content-center">
+                <h5 class="mt-4 ml-0 mb-1 l3onwan">Offers</h5>
+            </div>
+            <div class="col-sm-4  p-1 mb-2 d-flex justify-content-center">
+                <h5 class="mt-4 ml-0 mb-1 l3onwan">best seller</h5>
+            </div>
+            <div class="col-sm-4 p-1 mb-2 d-flex justify-content-center">
+                <h5 class="mt-4 ml-0 mb-1 l3onwan">Most rated</h5>
+            </div>
+        </div>
+
+        <!-- =====row tania===== -->
+
+
+        <div class="row">
+            <div class="col-sm-4 d-flex justify-content-center">
+                <img src="../project-Ecommerce/media/4.png" alt="" class="img-thumbnail mb-5 mt-4 thumbnail" style="width:120px">
+                <h5 class="mt-5 ml-2 m-5">Chemis black
+                    <br><br>
+                    <s>25$ </s>&nbsp; <span>20$</span>
+                </h5>
+
+            </div>
+            <div class="col-sm-4 d-flex justify-content-center">
+                <img src="../project-Ecommerce/media/5.png" alt="" class="img-thumbnail mb-5 mt-4 thumbnail" style="width:120px">
+                <h5 class="mt-5 ml-2 m-5"> Chemise rose
+                    <br><br>
+                    <span>18$</span>
+                </h5>
+
+            </div>
+            <div class="col-sm-4 d-flex justify-content-center">
+                <img src="../project-Ecommerce/media/6.png" alt="" class="img-thumbnail mb-5 mt-4 thumbnail" style="width:120px">
+                <h5 class="mt-5 ml-2 m-5">Chemise Haway
+                    <br><br>
+                    <span>20$</span>
+                </h5>
+
+            </div>
+        </div>
+
+        <!-- =====row talta===== -->
+
+        <div class="row">
+            <div class="col-sm-4 d-flex justify-content-center">
+                <img src="../project-Ecommerce/media/7.png" alt="" class="img-thumbnail mb-5 mt-4 thumbnail" style="width:120px">
+                <h5 class="mt-5 ml-2 m-5">Jacket Jordan
+                    <br><br>
+                    <s>21$ </s>&nbsp; <span>10$</span>
+                </h5>
+
+            </div>
+            <div class="col-sm-4 d-flex justify-content-center">
+                <img src="../project-Ecommerce/media/8.png" alt="" class="img-thumbnail mb-5 mt-4 thumbnail" style="width:120px">
+                <h5 class="mt-5 ml-2 m-5">Jacket Alaska
+                    <br><br>
+                    <span>30$</span>
+                </h5>
+
+            </div>
+            <div class="col-sm-4 d-flex justify-content-center">
+                <img src="../project-Ecommerce/media/9.png" alt="" class="img-thumbnail mb-5 mt-4 thumbnail" style="width:120px">
+                <h5 class="mt-5 ml-2 m-5">women's suit 
+                    <br><br>
+                    <span>22$</span>
+                </h5>
+
+            </div>
+        </div>
+
+        <!-- =====row rab3a===== -->
+
+        <div class="row">
+            <div class="col-sm-4 d-flex justify-content-center">
+                <img src="../project-Ecommerce/media/10.png" alt="" class="img-thumbnail mb-5 mt-4 thumbnail" style="width:120px">
+                <h5 class="mt-5 ml-2 m-5">men's jacket
+                    <br><br>
+                    <s>30$ </s>&nbsp; <span>20$</span>
+                </h5>
+
+            </div>
+            <div class="col-sm-4 d-flex justify-content-center">
+                <img src="../project-Ecommerce/media/11.png" alt="" class="img-thumbnail mb-5 mt-4 thumbnail" style="width:130px; height: 160px;">
+                <h5 class="mt-5 ml-2 m-5">women's underwear
+                    <br><br>
+                    <span>9$</span>
+                </h5>
+
+            </div>
+            <div class="col-sm-4 d-flex justify-content-center">
+                <img src="../project-Ecommerce/media/12.png" alt="" class="img-thumbnail mb-5 mt-4 thumbnail" style="width:120px">
+                <h5 class="mt-5 ml-2 m-5">men's sacado
+                    <br><br>
+                    <span>20$</span>
+                </h5>
+
+            </div>
+        </div>
+
+        <!-- =====row 5amsa===== -->
+
+        <div class="row">
+            <div class="col-sm-4 d-flex justify-content-center">
+                <img src="../project-Ecommerce/media/13.png" alt="" class="img-thumbnail mb-5 mt-4 thumbnail" style="width:120px">
+                <h5 class="mt-5 ml-2 m-5">men's chemise
+                    <br><br>
+                    <s>30$ </s>&nbsp; <span>20$</span>
+                </h5>
+
+            </div>
+            <div class="col-sm-4 d-flex justify-content-center">
+                <img src="../project-Ecommerce/media/14.png" alt="" class="img-thumbnail mb-5 mt-4 thumbnail" style="width:120px">
+                <h5 class="mt-5 ml-2 m-5">women's sacado
+                    <br><br>
+                    <span>10$</span>
+                </h5>
+
+            </div>
+            <div class="col-sm-4 d-flex justify-content-center">
+                <img src="../project-Ecommerce/media/15.png" alt="" class="img-thumbnail mb-5 mt-4 thumbnail" style="width:120px">
+                <h5 class="mt-5 ml-2 m-5">women's suit
+                    <br><br>
+                    <span>12$</span>
+                </h5>
+
+            </div>
+        </div>
+    </section>
+
+    <hr class="display-4">
+
+
+    <!-- =====information===== -->
+
+
+    <section class=" text-center d-flex justify-content-center mb-5">
+
+
+
+
+        <p class="d-inline-flex gap-1">
+            <a class="btn btn-primary w-100" data-toggle="collapse" href="#collapse1" role="button">Click Here for watch several informations</a>
+          </p>
+          <div class="collapse" id="collapse1">
+            <div class="card card-body">
+
+                <p class="d-inline-flex gap-1">
+                    <a class="btn btn-primary" data-toggle="collapse" href="#collapse2" role="button">
+                      Link with href
+                    </a>
+                  </p>
+                  <div class="collapse text-center" id="collapse2">
+                    <div class="card card-body">
+                      Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                    </div>
+                  </div>
+
+
+                  <p class="d-inline-flex gap-1">
+                    <a class="btn btn-primary " data-toggle="collapse" href="#collapse3" role="button">
+                      Link with href
+                    </a>
+                  </p>
+                  <div class="collapse" id="collapse3">
+                    <div class="card card-body">
+                      Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                    </div>
+                  </div>
+            </div>
+        </div>
+        &nbsp;<span><a class="btn btn-primar text-white"><span class="carousel-control-prev-icon"></span>&nbsp;&nbsp;Click Here</a></span>
+    </section>
+    <hr>
+
+
+    <!-- =====services===== -->
+
+
+    <div class="col-12 d-flex justify-content-center" id="foots">
+        <p class="display-4 products p-1">Services</p>
+    </div>
+
+    <!-- =====row lwla===== -->
+
+
+    <div class="row d-flex justify-content-center align-items-center">
+        <div class="col-sm-6">
+            <p class="lead mt-6 ml-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia alias autem ipsam, doloremque natus neque et, veritatis, laudantium dolor culpa nesciunt deserunt voluptas sequi obcaecati amet dolorem 
+                <br>asperiores voluptatibus recusandae dolore ex explicabo ad. Neque ratione cum quos. Earum, odio!
+            <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto odit nostrum nisi suscipit totam ullam amet quis fugit, illum perferendis?</p>
+        </div>
+        <div class="col-lg-6">
+            <script src="https://unpkg.com/@lottiefiles/lottie-player@2.0.8/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/3ed32726-25ab-4556-8030-58ca930838bc/EH2HlFGsnH.json" background="##FFFFFF" speed="1" style="width: 750px; height: 890px ; bottom: 30px;" loop  autoplay direction="1" mode="normal"></lottie-player>
+        </div>
+    </div>
+
+
+    <!-- =====row tania===== -->
+
+
+    <div class="row d-flex justify-content-center align-items-center">
+        <div class="col-lg-6">  
+            <script src="https://unpkg.com/@lottiefiles/lottie-player@2.0.8/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/56fead03-3745-4099-9f7d-5ad3d3a2372c/Xm65bsR4TX.json" background="##ffffff" speed="1" style="width: 600px; height: 600px" loop  autoplay direction="1" mode="normal"></lottie-player>
+        </div>
+        <div class="col-sm-6 ">
+            <p class="lead mt-5 m-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia alias autem ipsam, doloremque natus neque et, veritatis, laudantium dolor culpa nesciunt deserunt voluptas sequi obcaecati amet dolorem 
+                <br>asperiores voluptatibus recusandae dolore ex explicabo ad. Neque ratione cum quos. Earum, odio!
+            <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto odit nostrum nisi suscipit totam ullam amet quis fugit, illum perferendis?</p>
+        </div>
+    </div>
+
+
+
+    <!-- =====row talta===== -->
+
+
+    
+    <div class="row d-flex justify-content-center align-items-center">
+        <div class="col-sm-6">
+            <p class="lead mt-5 m-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia alias autem ipsam, doloremque natus neque et, veritatis, laudantium dolor culpa nesciunt deserunt voluptas sequi obcaecati amet dolorem 
+                <br>asperiores voluptatibus recusandae dolore ex explicabo ad. Neque ratione cum quos. Earum, odio!
+            <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto odit nostrum nisi suscipit totam ullam amet quis fugit, illum perferendis?</p>
+        </div>
+        <div class="col-lg-6">    
+            <script src="https://unpkg.com/@lottiefiles/lottie-player@2.0.8/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/19941439-81eb-4c0e-8a07-c74cab355594/KSvgFwGFxj.json" background="##FFFFFF" speed="1" style="width: 600px; height: 600px;margin-left:10%" loop   autoplay direction="1" mode="normal"></lottie-player>
+        </div>
+    </div>
+
+
+
+    <!-- =====row rab3a===== -->
+
+
+
+    <div class="row d-flex justify-content-center align-items-center">
+        <div class="col-lg-6">  
+            <script src="https://unpkg.com/@lottiefiles/lottie-player@2.0.8/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/60f27be6-1181-4747-a8bc-ce094e77c8eb/oHUGbazpz4.json" background="##FFFFFF" speed="1" class="text-center" style="width: 600px; height: 600px" loop   autoplay direction="1" mode="normal"></lottie-player>
+        </div>
+        <div class="col-sm-6">
+            <p class="lead mt-5 m-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia alias autem ipsam, doloremque natus neque et, veritatis, laudantium dolor culpa nesciunt deserunt voluptas sequi obcaecati amet dolorem 
+                <br>asperiores voluptatibus recusandae dolore ex explicabo ad. Neque ratione cum quos. Earum, odio!
+            <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto odit nostrum nisi suscipit totam ullam amet quis fugit, illum perferendis?</p>
+        </div>
+    </div>
+
+
+    <!-- =====footer===== -->
+
+
+    <div class="row p-5 mb-3 myfooter">
+        <div class="col-sm-4">
+            <h3 class="foter-item">Adrress</h3>
+            <br>
+            <li><i class="fa-solid fa-location-dot text-white"></i><a href="#" class="text-white" style="text-decoration: none;">  &nbsp;Location</a></li>
+            <li><i class="fa-solid fa-phone text-white"></i><a href="#" class="text-white" style="text-decoration: none;">  &nbsp;+212 721651404</a></li>
+            <li><i class="fa-solid fa-envelope text-white"></i><a href="#" class="text-white" style="text-decoration: none;">  &nbsp;Example@gmail.com</a></li>
+        </div>
+        <div class="col-sm-4">
+            <h3 class="foter-item">Links</h3>
+            <br>
+            <a href="#footp" class="text-white"  style="text-decoration: none;">Products</a>
+            <br>
+            <a href="#footc" class="text-white"  style="text-decoration: none;">Contact</a>
+            <br>
+            <a href="#foots" class="text-white"  style="text-decoration: none;">Service</a>
+
+        </div>
+        <div class="col-sm-4">
+            <h3 class="foter-item">Subscribe</h3>
+            <br>
+            <a href="https://www.facebook.com/Youssef ZOu" target="_blank" class=" href1"  style="text-decoration: none"><i class="fa-brands fa-facebook"></i>  Facebook</a>
+            <br>
+            <a href="https://www.instagram.com/"  target="_blank" class="href2"  style="text-decoration: none"><i class="fa-brands fa-instagram"></i>  Instagram</a>
+            <br>
+            <a href="https://www.github.com/dexter-999"  target="_blank" class="text-dark href3"  style="text-decoration: none"><i class="fa-brands fa-github"></i>  Github</a>
+        </div>
+    </div>
+    <script>
+
+    </script>
+
+
+    <script src="../bootstrap-jQuery/js/b-j.js"></script>
+    <script src="../bootstrap-jQuery/js/bootstrap.js"></script>
+    <script src="../bootstrap-jQuery/js/popper.min.js"></script>
+    <script src="isotope.pkgd.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html
